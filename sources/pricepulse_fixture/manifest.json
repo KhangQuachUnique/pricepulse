@@ -1,0 +1,27 @@
+{
+  "seed": 20260926,
+  "physical_rows": 221000,
+  "base_v1": 200000,
+  "valid_v2": 12000,
+  "valid_v3": 2000,
+  "exact_replays": 5000,
+  "invalid_rows": 2000,
+  "invalid_by_type": {
+    "bad_price": 500,
+    "missing_product_id": 500,
+    "invalid_json": 500,
+    "invalid_date": 500
+  },
+  "expected_final_keys": 200000,
+  "expected_latest_version": {
+    "1": 188000,
+    "2": 10000,
+    "3": 2000
+  },
+  "natural_key": [
+    "product_id",
+    "seller_id",
+    "observed_date"
+  ],
+  "source_order": "lexicographic filename order"
+}
